@@ -1,0 +1,24 @@
+{
+  "name": "lynix-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "vercel-build": "rm -f api/auth.ts api/users.ts api/users/[id].ts api/gemini.ts api/chat.ts api/chat/users.ts api/chat/messages.ts api/chat/alerts.ts api/apps.ts api/contacts.ts api/contacts/[id].ts api/localmail.ts api/localmail/messages.ts api/notepad.ts api/phone.ts api/phone/users.ts api/phone/call.ts api/phone/status.ts api/phone/calls/[id].ts api/voiceserver.ts api/data.ts api/services.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "bcrypt": "5.1.1",
+    "buffer": "6.0.3",
+    "pg": "8.12.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "5.0.2",
+    "@types/pg": "8.11.6",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vercel/node": "3.2.0",
+    "patch-package": "8.0.0"
+  }
+}
